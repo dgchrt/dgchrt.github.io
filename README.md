@@ -7,12 +7,11 @@
 - [twitter](https://twitter.com/diogoeichert)
 
 ## projects
-- [github](https://github.com/diogoeichert) - open-source software
 - [npm](https://www.npmjs.com/~diogoeichert) - public npm packages
 
 ## publications
 - [javascript with classes](JSwC.epub) - object-oriented programming
-- [rd633077 - unified instant messaging syndication through capabilities negotiation and federated user directory](RD633077.pdf) - instant messaging syndication
+- [rd633077](RD633077.pdf) - instant messaging syndication
 
 ## video games
 - [alpha](https://diogoeichert.github.io/alpha/) - platformer
