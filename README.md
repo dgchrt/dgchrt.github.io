@@ -3,14 +3,12 @@
 ## contact
 - [career](https://www.linkedin.com/in/diogoeichert)
 - [mail](mailto:diogoeichert@icloud.com)
-- [telegram](https://t.me/diogoeichert)
-- [twitter](https://twitter.com/diogoeichert)
 
 ## projects
-- [npm](https://www.npmjs.com/~diogoeichert) - public npm packages
+- [npm](https://www.npmjs.com/~diogoeichert) - public node packages
 
 ## publications
-- [javascript with classes](JSwC.epub) - object-oriented programming
+- [js with classes](JSwC.epub) - object-oriented programming
 - [rd633077](RD633077.pdf) - instant messaging syndication
 
 ## video games
