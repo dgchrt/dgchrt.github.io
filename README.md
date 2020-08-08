@@ -13,6 +13,6 @@
 
 ## video games
 - [alpha](https://diogoeichert.github.io/alpha/) - platformer
-- [cityscape](https://diogoeichert.github.io/cityscape/) - adventurer
+- [cityscape](https://diogoeichert.itch.io/cityscape/) - adventurer
 - [ms. starship](https://diogoeichert.github.io/ms-starship/) - two-player shooter
 - [starship](https://diogoeichert.github.io/starship/) - one-player shooter
