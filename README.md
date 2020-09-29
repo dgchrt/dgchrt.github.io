@@ -1,18 +1,18 @@
-# home
+# Home
 
-## contact
-- [career](https://www.linkedin.com/in/diogoeichert)
-- [mail](mailto:diogoeichert@icloud.com)
+## Contact
+- [Career](https://www.linkedin.com/in/diogoeichert)
+- [Mail](mailto:diogoeichert@icloud.com)
 
-## projects
-- [npm](https://www.npmjs.com/~diogoeichert) - public node packages
+## Projects
+- [NPM](https://www.npmjs.com/~diogoeichert) - public node packages
 
-## publications
-- [js with classes](JavaScript with Classes.epub) - object-oriented programming
-- [rd633077](RD633077.pdf) - instant messaging syndication
+## Publications
+- [JavaScript with Classes](JSwC.epub) - object-oriented programming
+- [RD633077](RD633077.pdf) - instant messaging syndication
 
-## video games
-- [alpha](https://diogoeichert.github.io/alpha/) - platformer
-- [cityscape](https://diogoeichert.github.io/cityscape/) - adventurer
-- [ms. starship](https://diogoeichert.github.io/ms-starship/) - two-player shooter
-- [starship](https://diogoeichert.github.io/starship/) - one-player shooter
+## Videogames
+- [Alpha](https://diogoeichert.github.io/alpha/) - platformer
+- [Cityscape](https://diogoeichert.github.io/cityscape/) - adventurer
+- [Ms. Starship](https://diogoeichert.github.io/ms-starship/) - two-player shooter
+- [Starship](https://diogoeichert.github.io/starship/) - one-player shooter
