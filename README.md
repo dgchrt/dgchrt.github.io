@@ -8,7 +8,7 @@
 - [npm](https://www.npmjs.com/~diogoeichert) - public node packages
 
 ## publications
-- [js with classes](JSwC.epub) - object-oriented programming
+- [js with classes](JavaScript with Classes.epub) - object-oriented programming
 - [rd633077](RD633077.pdf) - instant messaging syndication
 
 ## video games
