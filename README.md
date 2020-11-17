@@ -10,7 +10,7 @@ Old-fashioned communication method for those who still use it.
 
 ## Projects
 
-### [Utilities](https://diogoeichert.github.io/games)
+### [Utilities](https://diogoeichert.github.io/utils)
 Tools and utilities.
 
 ### [Video games](https://diogoeichert.github.io/games)
