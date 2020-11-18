@@ -18,8 +18,8 @@ Video games collection.
 
 # Publications
 
-## [JavaScript with Classes](JSwC.epub)
-Before ES6 and TypeScript... there was another effective object-oriented programming approach to JavaScript.
+## [JavaScript with Classes 9th edition](JSwC.epub)
+Before ES6, before TypeScript... there was another simple yet effective object-oriented programming approach to JavaScript.
 
 ## [Unified Instant Messaging Syndication Through Capabilities Negotiation and Federated User Directory](RD633077.pdf)
 Research Disclosure RD633077 - One method to free them all, one method to find them, one method to bring them all and in the Internet bind them.
