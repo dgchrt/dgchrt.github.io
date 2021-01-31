@@ -13,8 +13,10 @@ Still the best communication method to get in touch with me.
 ## [Utilities](https://diogoeichert.github.io/utils)
 Tools and utilities.
 
-## [Video games](https://www.outpan.com/d/38cdc5ca5372)
-Some titles I have released.
+## [Video games]
+Some titles I have released can be found at these stores:
+- [Itch.io](https://maragato.itch.io)
+- [Outpan](https://www.outpan.com/d/38cdc5ca5372)
 
 # Publications
 
