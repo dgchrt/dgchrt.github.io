@@ -18,8 +18,3 @@ Before ES6, before TypeScript... there was another simple yet effective object-o
 
 ## [Unified Instant Messaging Syndication Through Capabilities Negotiation and Federated User Directory](RD633077.pdf)
 Research Disclosure RD633077 - One method to free them all, one method to find them, one method to bring them all and in the Internet bind them.
-
-# Video games
-Some titles I have released can be found at these stores:
-- [Itch.io](https://maragato.itch.io)
-- [Outpan](https://www.outpan.com/d/38cdc5ca5372)
