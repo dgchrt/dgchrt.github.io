@@ -5,6 +5,9 @@ Welcome to my humble website.
 ## [Career](https://www.linkedin.com/in/diogoeichert)
 Professional achievements and timeline.
 
+## [Games](https://maragato.itch.io)
+The latest videogames I've released.
+
 ## [Mail](mailto:diogoeichert@icloud.com)
 Still the best communication method to get in touch with me.
 
