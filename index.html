@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Diogo Eichert</title>
+
+        <style>
+            .view {
+                display: none;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div>
+            <button id="contact" class="viewButton">Contact</button>
+            <button id="games" class="viewButton">Games</button>
+            <button id="projects" class="viewButton">Projects</button>
+            <button id="publications" class="viewButton">Publications</button>
+        </div>
+
+        <hr>
+
+        <div id="home" class="view">
+            <p>Welcome! Please click the button for each section.</p>
+        </div>
+
+        <div id="contact" class="view">
+            <p>How to contact me:</p>
+
+            <ul>
+                <li><a href="mailto:diogoeichert@icloud.com">E-mail</a></li>
+            </ul>
+        </div>
+
+        <div id="games" class="view">
+            <p>Some of the games I have published:</p>
+
+            <ul>
+                <li><a href="https://maragato.itch.io">Itch.io</a></li>
+                <li><a href="https://outpan.com/d/38cdc5ca5372">Outpan</a></li>
+                <li><a href="https://youtube.com/channel/UCS4U0X88nujRp424tiwOcAQ">YouTube</a></li>
+            </ul>
+        </div>
+
+        <div id="projects" class="view">
+            <p>You can find more about my projects on:</p>
+
+            <ul>
+                <li><a href="https://github.com/diogoeichert?tab=repositories">GitHub</a></li>
+                <li><a href="https://www.npmjs.com/~diogoeichert">NPM</a></li>
+            </ul>
+        </div>
+
+        <div id="publications" class="view">
+            <p>Some of my publications:</p>
+
+            <ul>
+                <li>
+                    <a href="./JSwC.epub">JavaScript with Classes</a>
+                    -
+                    Before ES6, before TypeScript... there was another simple yet effective object-oriented programming approach to JavaScript.</li>
+
+                <li>
+                    <a href="./RD633077.pdf">Unified Instant Messaging Syndication Through Capabilities Negotiation and Federated User Directory</a>
+                    -
+                    Research Disclosure RD633077 - One method to free them all, one method to find them, one method to bring them all and in the Internet bind them.
+                </li>
+            </ul>
+        </div>
+
+        <hr>
+
+        <div id="footer">
+            <p>&copy; Diogo Eichert - <span id="yearLabel"></span></p>
+        </div>
+
+        <script src="./main.js"></script>
+    </body>
+</html>

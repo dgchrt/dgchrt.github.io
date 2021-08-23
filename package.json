@@ -1,0 +1,23 @@
+{
+  "name": "diogoeichert.github.io",
+  "version": "0.0.0",
+  "description": "diogoeichert.github.io",
+  "main": "main.js",
+  "dependencies": {
+    "eslint-config-classic": "^1.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "eslint --fix ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diogoeichert/diogoeichert.github.io.git"
+  },
+  "author": "Diogo Eichert",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/diogoeichert/diogoeichert.github.io/issues"
+  },
+  "homepage": "https://github.com/diogoeichert/diogoeichert.github.io#readme"
+}
