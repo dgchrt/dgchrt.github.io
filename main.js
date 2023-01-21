@@ -5,7 +5,7 @@ class Controller {
 		document.querySelector("#yearLabel").innerHTML = new Date().getFullYear();
 		this.views = Array.from(document.querySelectorAll(".view"));
 		this.viewButtons = Array.from(document.querySelectorAll(".viewButton"));
-		this.changeView("home");
+		this.changeView("about");
 
 		for (let viewButton of this.viewButtons) {
 			viewButton.addEventListener("click", () => {

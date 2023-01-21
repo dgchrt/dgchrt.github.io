@@ -2,8 +2,6 @@
 
 <html>
 	<head>
-		<title>Diogo Eichert</title>
-
 		<style>
 			.view {
 				display: none;
@@ -12,7 +10,11 @@
 	</head>
 
 	<body>
+		<h1>Diogo Eichert</h1>
+		<hr>
+
 		<div>
+			<button id="about" class="viewButton">About</button>
 			<button id="contact" class="viewButton">Contact</button>
 			<button id="games" class="viewButton">Games</button>
 			<button id="projects" class="viewButton">Projects</button>
@@ -21,35 +23,54 @@
 
 		<hr>
 
-		<div id="home" class="view">
-			<p>Welcome! Please click the button for each section.</p>
+		<div id="about" class="view">
+			<p>Diogo Sperb Schneider Eichert, professional technologist, welcomes you to his home page.</p>
+
+			<p>About this web site: yes, it's just a single page that contains everything. You can take a look at the <a href="https://raw.githubusercontent.com/diogoeichert/diogoeichert.github.io/master/main.js" target="_blank">source code</a> to learn how I do it. Spoiler: no bulky dependencies necessary. Let's save our Ozone layer, shall we? :)</p>
 		</div>
 
 		<div id="contact" class="view">
 			<p>How to contact me:</p>
 
 			<ul>
-				<li><a href="mailto:diogoeichert@icloud.com">E-mail</a></li>
-				<li><a href="https://t.me/diogoeichert">Telegram</a></li>
+				<li><a href="mailto:diogoeichert@icloud.com" target="_blank">E-mail</a></li>
+				<li><a href="https://t.me/diogoeichert" target="_blank">Telegram</a></li>
 			</ul>
 		</div>
 
 		<div id="games" class="view">
-			<p>Some titles I have published:</p>
+			<p>Some video games I have published that can be played online for free:</p>
 
 			<ul>
-				<li><a href="https://diogoeichert.github.io/core2d/">Core2D</a> - Multiplatform 2D interaction engine</li>
-				<li><a href="https://maragato.itch.io">Itch.io</a> - Web and desktop titles</li>
-				<li><a href="https://outpan.com/d/38cdc5ca5372">Outpan</a> - Web titles only</li>
+				<li>
+					<a href="https://diogoeichert.github.io/alpha" target="_blank">Alpha (Prototype)</a>
+					-
+					Single-player platform game (<a href="http://github.com/diogoeichert/alpha" target="_blank">source code</a>)
+				</li>
+
+				<li>
+					<a href="https://diogoeichert.github.io/cityscape" target="_blank">Cityscape</a>
+					-
+					Single-player arcade survival game (<a href="http://github.com/diogoeichert/cityscape" target="_blank">source code</a>)
+				</li>
+
+				<li>
+					<a href="https://diogoeichert.github.io/ms-starship" target="_blank">Ms. Starship</a>
+					-
+					Multi-player arcade shooter game (<a href="http://github.com/diogoeichert/ms-starship" target="_blank">source code</a>)
+				</li>
 			</ul>
+
+			<p>Most of my modern games were either built with or inspired the creation of <a href="https://diogoeichert.github.io/core2d" target="_blank">Core2D</a>, a multiplatform 2D interaction engine.</p>
+			<p>You can also check <a href="https://retroachievements.org/user/diogoeichert" target="_blank">what I've been playing</a>.</p>
 		</div>
 
 		<div id="projects" class="view">
 			<p>You can find more about my projects on:</p>
 
 			<ul>
-				<li><a href="https://github.com/diogoeichert?tab=repositories">GitHub</a></li>
-				<li><a href="https://www.npmjs.com/~diogoeichert">NPM</a></li>
+				<li><a href="https://github.com/diogoeichert?tab=repositories" target="_blank">GitHub</a></li>
+				<li><a href="https://www.npmjs.com/~diogoeichert" target="_blank">NPM</a></li>
 			</ul>
 		</div>
 
@@ -58,12 +79,13 @@
 
 			<ul>
 				<li>
-					<a href="./JSwC.epub">JavaScript with Classes</a>
+					<a href="./JSwC.epub" target="_blank">JavaScript with Classes</a>
 					-
-					a simple, yet effective classical OOP approach to JavaScript.</li>
+					a simple, yet effective classical OOP approach to JavaScript.
+				</li>
 
 				<li>
-					<a href="./RD633077.pdf">Research Disclosure RD633077</a>
+					<a href="./RD633077.pdf" target="_blank">Research Disclosure RD633077</a>
 					-
 					one way to free them all, one way to find them, one way to bring them all and in the Internet bind them.
 				</li>
@@ -74,7 +96,7 @@
 
 		<div id="footer">
 			<p>&copy; Diogo Eichert - <span id="yearLabel"></span></p>
-			<p><a href="//vanilla-js.com/" target="_blank"><img src="vanillajs.png"></a></p>
+			<p><a href="http://vanilla-js.com/" target="_blank"><img src="./vanilla-js.png"></a></p>
 		</div>
 
 		<script src="./main.js"></script>
