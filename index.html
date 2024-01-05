@@ -1,349 +1,227 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 	<head>
-		<link
-			rel="icon"
-			type="image/x-icon"
-			href="https://www.gravatar.com/avatar/4247b2a9f1f291b3d9a0eeb9448d6d0e?size=32"
-		/>
 		<meta charset="UTF-8" />
-		<title>Diogo Sperb</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script
+			src="https://kit.fontawesome.com/0e35a62c2d.js"
+			crossorigin="anonymous"
+		></script>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="src/style.css" />
+		<!-- <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    /> -->
+		<title>Document</title>
 	</head>
 
 	<body>
-		<header>
-			Diogo Eichert, professional technologist, welcomes you to his home
-			page.
-		</header>
+		<div class="container">
+			<header>
+				<h1>Diogo Eichert</h1>
+				<h2>
+					professional technologist, welcomes you to his home page.
+				</h2>
+				<a href="#more">About me</a>
+			</header>
+			<main>
+				<section class="primary grid grid-2-columns">
+					<div class="center-image">
+						<a href="#"
+							><img
+								class="profile-picture"
+								src="https://www.gravatar.com/avatar/4247b2a9f1f291b3d9a0eeb9448d6d0e?size=350"
+								alt="Diogo Profile Picture"
+							/>
+						</a>
+					</div>
 
-		<div>
-			<a id="contact"><h1>Contact</h1></a>
-			<p>You can reach me at:</p>
+					<div>
+						<a name="more"></a>
 
-			<ul>
-				<li><a href="mailto:diogoeichert@icloud.com">E-mail</a></li>
-				<li>
-					<a href="https://www.linkedin.com/in/diogoeichert/"
-						>LinkedIn</a
-					>
-				</li>
-				<li>
-					<a href="https://mastodon.social/@diogoeichert" rel="me"
-						>Mastodon</a
-					>
-				</li>
-				<li>
-					<a href="https://matrix.to/#/@diogoeichert:beeper.com"
-						>Matrix</a
-					>
-				</li>
-				<li><a href="https://t.me/diogoeichert">Telegram</a></li>
-				<li>
-					<a href="https://diogoeichert.wordpress.com">Wordpress</a>
-				</li>
-			</ul>
+						<h3>About Me</h3>
+						<p>
+							Hi, I'm Diogo, often called just "Dio". Lifelong
+							technologist, loving husband, part-time artist and
+							occasional polymath next door. Proudly non-carnist
+							(vegan). Any form of cruelty and oppression condones
+							all other forms of cruelty and oppression. “Is it
+							not better,” she said, “to lead a good fashion than
+							to follow a bad one?” - Anna Sewell, excerpt from
+							Black Beauty.
+						</p>
+					</div>
+				</section>
+				<section class="secondary">
+					<h3>What else?</h3>
+					<h2>More about what I've been doing</h2>
+
+					<div class="grid grid-3-columns-bookstores">
+						<div class="card">
+							<div class="card-header grid grid-2-columns">
+								<img src="" alt="" class="img-responsive" />
+							</div>
+							<div class="card-body">
+								<h4>Projects</h4>
+								<p>You can find more about my projects on:</p>
+								<ul>
+									<li>
+										<a
+											href="https://github.com/diogoeichert?tab=repositories"
+											>GitHub</a
+										>
+									</li>
+									<li>
+										<a
+											href="https://www.npmjs.com/~diogoeichert"
+											>NPM</a
+										>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header grid grid-2-columns">
+								<img src="" alt="" class="img-responsive" />
+							</div>
+							<div class="card-body">
+								<h4>Publications</h4>
+								<p>Some of my publications:</p>
+								<ul>
+									<li>
+										<a
+											href="https://diogoeichert.github.io/JSwC.epub"
+											>JavaScript with Classes 10th
+											edition</a
+										>
+										- a simple, yet effective classical OOP
+										approach to JavaScript (a.k.a.
+										JavaScript for grown-ups).
+									</li>
+									<li>
+										<a
+											href="https://diogoeichert.github.io/RD633077.pdf"
+											>Unified Instant Messaging
+											Syndication Through Capabilities
+											Negotiation and Federated User
+											Directory</a
+										>
+										- one way to free them all, one way to
+										find them, one way to bring them all and
+										in the Internet bind them.
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header grid grid-2-columns">
+								<img src="" alt="" class="img-responsive" />
+							</div>
+							<div class="card-body">
+								<h4>Software</h4>
+								<p>Some of my published software:</p>
+								<ul>
+									<li>
+										<a href="https://puter.com/app/ampod"
+											>AmPod</a
+										>
+										- Listen to your favorite music and
+										elevate your vibe
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</section>
+				<a name="fav-books"></a>
+				<section class="tertiary">
+					<h3>Maragato Games</h3>
+					<h2>
+						Some video games I have published that can still be
+						played online for free:
+					</h2>
+
+					<div class="grid grid-2-columns-my-games">
+						<a href="https://maragato.itch.io/mythology"
+							><img
+								src="images/mithology.png"
+								alt="Miss Starship"
+								class="game-card"
+						/></a>
+						<a href="https://maragato.itch.io/ms-starship"
+							><img
+								src="images/ms-starship.png"
+								alt="Miss Starship"
+								class="game-card"
+						/></a>
+						<a href="https://maragato.itch.io/starship"
+							><img
+								src="images/starship.png"
+								alt="Starship"
+								class="game-card"
+						/></a>
+						<a href="https://maragato.itch.io/cityscape"
+							><img
+								src="images/cityscape.png"
+								alt="Cityscape"
+								class="game-card"
+						/></a>
+					</div>
+				</section>
+			</main>
+			<footer>
+				<h3>Contact me</h3>
+				<ul>
+					<li>
+						<a href="mailto:diogoeichert@icloud.com"
+							><i class="fa-solid fa-envelope email"></i
+						></a>
+					</li>
+					<li>
+						<a href="https://www.linkedin.com/in/diogoeichert/"
+							><i class="fab fa-linkedin linkedin"></i
+						></a>
+					</li>
+					<li>
+						<a href="https://mastodon.social/@diogoeichert"
+							><i class="fab fa-mastodon mastodon"></i
+						></a>
+					</li>
+					<li>
+						<a href="https://matrix.to/#/@diogoeichert:beeper.com"
+							><i class="fa-solid fa-comments matrix"></i
+						></a>
+					</li>
+					<li>
+						<a href="https://t.me/diogoeichert"
+							><i class="fab fa-telegram telegram"></i
+						></a>
+					</li>
+					<li>
+						<a href="https://diogoeichert.wordpress.com/"
+							><i class="fa-brands fa-wordpress wordpress"></i
+						></a>
+					</li>
+				</ul>
+				<p class="diogo-eichert-year">
+					Diogo Eichert - <span id="year">2024</span>
+				</p>
+			</footer>
+			<div class="project-owner">
+				<p>
+					This project was coded by Geisa Lopes and is
+					<a href="https://github.com/geisalopes/books-project"
+						>open sourced
+					</a>
+				</p>
+			</div>
 		</div>
-
-		<div>
-			<a id="games"><h1>Games</h1></a>
-			<p>
-				Some video games I have published that can still be played
-				online for free:
-			</p>
-
-			<ul>
-				<li>
-					<a href="https://diogoeichert.github.io/alpha"
-						>Alpha (Prototype)</a
-					>
-					- Single-player platform game (<a
-						href="http://github.com/diogoeichert/alpha"
-						>source code</a
-					>)
-				</li>
-
-				<li>
-					<a href="https://diogoeichert.github.io/cityscape"
-						>Cityscape</a
-					>
-					- Single-player arcade survival game (<a
-						href="http://github.com/diogoeichert/cityscape"
-						>source code</a
-					>)
-				</li>
-
-				<li>
-					<a href="https://diogoeichert.github.io/ms-starship"
-						>Ms. Starship</a
-					>
-					- Multi-player arcade shooter game (<a
-						href="http://github.com/diogoeichert/ms-starship"
-						>source code</a
-					>)
-				</li>
-
-				<li>
-					<a href="https://diogoeichert.github.io/starship"
-						>Starship</a
-					>
-					- Single-player arcade shooter game (<del>source code</del>)
-				</li>
-			</ul>
-
-			<p>
-				Most of my modern games were either built with or inspired the
-				creation of
-				<a href="https://diogoeichert.github.io/core2d">Core2D</a>, a
-				multiplatform 2D interaction engine.
-			</p>
-		</div>
-
-		<div>
-			<a id="projects"><h1>Projects</h1></a>
-			<p>You can find more about my projects on:</p>
-
-			<ul>
-				<li>
-					<a href="https://github.com/diogoeichert?tab=repositories"
-						>GitHub</a
-					>
-				</li>
-				<li><a href="https://www.npmjs.com/~diogoeichert">NPM</a></li>
-			</ul>
-		</div>
-
-		<div>
-			<a id="publications"><h1>Publications</h1></a>
-			<p>Some of my publications:</p>
-
-			<ul>
-				<li>
-					<a href="./JSwC.epub"
-						>JavaScript with Classes 10th edition</a
-					>
-					- a simple, yet effective classical OOP approach to
-					JavaScript (a.k.a. JavaScript for grown-ups).
-				</li>
-
-				<li>
-					<a href="./RD633077.pdf"
-						>Unified Instant Messaging Syndication Through
-						Capabilities Negotiation and Federated User Directory</a
-					>
-					- one way to free them all, one way to find them, one way to
-					bring them all and in the Internet bind them.
-				</li>
-			</ul>
-		</div>
-
-		<div>
-			<a id="recommendations"><h1>Recommendations</h1></a>
-			<h2>Movies</h2>
-
-			<ul>
-				<li>
-					1993 - Schindler's List
-					<a href="https://www.imdb.com/title/tt0108052">IMDB</a>
-					<a href="https://www.netflix.com/title/60036359">Netflix</a>
-				</li>
-
-				<li>
-					1997 - As Good as It Gets
-					<a href="https://www.imdb.com/title/tt0119822">IMDB</a>
-					<a href="https://www.netflix.com/title/1181488">Netflix</a>
-				</li>
-
-				<li>
-					1998 - Les Misérables
-					<a href="https://www.imdb.com/title/tt0119683">IMDB</a>
-					<a href="https://www.netflix.com/title/5670503">Netflix</a>
-				</li>
-
-				<li>
-					2006 - The Lives of Others
-					<a href="https://www.imdb.com/title/tt0405094/">IMDB</a>
-					<a href="https://www.netflix.com/title/70056425">Netflix</a>
-				</li>
-
-				<li>
-					2019 - A Beautiful Day in the Neighborhood
-					<a href="https://www.imdb.com/title/tt3224458">IMDB</a>
-					<a href="https://www.netflix.com/title/81121682">Netflix</a>
-				</li>
-
-				<li>
-					2023 - Forgotten Love
-					<a href="https://www.imdb.com/title/tt26596953">IMDB</a>
-					<a href="https://www.netflix.com/title/81516046">Netflix</a>
-				</li>
-			</ul>
-
-			<h2>Music</h2>
-
-			<ul>
-				<li>
-					1966 - Cream
-					<a
-						href="https://open.spotify.com/playlist/5345aOmzPyT2EdykvCOzmg"
-						>Spotify</a
-					>
-					<a href="https://en.wikipedia.org/wiki/Cream_(band)"
-						>Wikipedia</a
-					>
-				</li>
-
-				<li>
-					1967 - Fleetwood Mac
-					<a
-						href="https://open.spotify.com/playlist/3mcYJvGUv5J4wMY9Vkp1rG"
-						>Spotify</a
-					>
-					<a href="https://en.wikipedia.org/wiki/Fleetwood_Mac"
-						>Wikipedia</a
-					>
-				</li>
-
-				<li>
-					1967 - Jethro Tull
-					<a
-						href="https://open.spotify.com/playlist/5g2OYCCruoYMKrWviXaPhh"
-						>Spotify</a
-					>
-					<a href="https://en.wikipedia.org/wiki/Jethro_Tull_(band)"
-						>Wikipedia</a
-					>
-				</li>
-
-				<li>
-					1968 - Black Sabbath
-					<a
-						href="https://open.spotify.com/playlist/37eOLXLjWiNaoFJJhsDIAp"
-						>Spotify</a
-					>
-					<a href="https://en.wikipedia.org/wiki/Black_Sabbath"
-						>Wikipedia</a
-					>
-				</li>
-
-				<li>
-					1968 - Deep Purple
-					<a
-						href="https://open.spotify.com/playlist/3pH88UXOPmDwv9QBrgj5Hq"
-						>Spotify</a
-					>
-					<a href="https://en.wikipedia.org/wiki/Deep_Purple"
-						>Wikipedia</a
-					>
-				</li>
-
-				<li>
-					1968 - Led Zeppelin
-					<a
-						href="https://open.spotify.com/playlist/6gcCgDSxcSUuR5eIGPxKP9"
-						>Spotify</a
-					>
-					<a href="https://en.wikipedia.org/wiki/Led_Zeppelin"
-						>Wikipedia</a
-					>
-				</li>
-
-				<li>
-					1973 - Heart
-					<a
-						href="https://open.spotify.com/playlist/7iTvPM1QSdshI21gH80LCr"
-						>Spotify</a
-					>
-					<a href="https://en.wikipedia.org/wiki/Heart_(band)"
-						>Wikipedia</a
-					>
-				</li>
-
-				<li>
-					1973 - Kiss
-					<a
-						href="https://open.spotify.com/playlist/5j62N88fa4SZzyZzgE6Jil"
-						>Spotify</a
-					>
-					<a href="https://en.wikipedia.org/wiki/Kiss_(band)"
-						>Wikipedia</a
-					>
-				</li>
-
-				<li>
-					1973 - Van Halen
-					<a
-						href="https://open.spotify.com/playlist/6dbAPjgMeemmzp8QRUUYiv"
-						>Spotify</a
-					>
-					<a href="https://en.wikipedia.org/wiki/Van_Halen"
-						>Wikipedia</a
-					>
-				</li>
-
-				<li>
-					1975 - Rainbow
-					<a
-						href="https://open.spotify.com/playlist/4cRyW9asqLHJU85oVk2yRq"
-						>Spotify</a
-					>
-					<a href="https://en.wikipedia.org/wiki/Rainbow_(rock_band)"
-						>Wikipedia</a
-					>
-				</li>
-
-				<li>
-					1978 - Whitesnake
-					<a
-						href="https://open.spotify.com/playlist/0SfAEemjedFjdzg72aUX8w"
-						>Spotify</a
-					>
-					<a href="https://en.wikipedia.org/wiki/Whitesnake"
-						>Wikipedia</a
-					>
-				</li>
-
-				<li>
-					1979 - Ozzy Osbourne
-					<a
-						href="https://open.spotify.com/playlist/3PJ7PfdgEP89ZthzeSmwWm"
-						>Spotify</a
-					>
-					<a href="https://en.wikipedia.org/wiki/Ozzy_Osbourne"
-						>Wikipedia</a
-					>
-				</li>
-
-				<li>
-					1982 - Dio
-					<a
-						href="https://open.spotify.com/playlist/2cSYeg5UkLwgi9Xqfv1UFl"
-						>Spotify</a
-					>
-					<a href="https://en.wikipedia.org/wiki/Dio_(band)"
-						>Wikipedia</a
-					>
-				</li>
-
-				<li>
-					1997 - Blackmore's Night
-					<a
-						href="https://open.spotify.com/playlist/3QND0v1Zzm1dWzWeD7kCMc"
-						>Spotify</a
-					>
-					<a href="https://en.wikipedia.org/wiki/Blackmore%27s_Night"
-						>Wikipedia</a
-					>
-				</li>
-			</ul>
-		</div>
-
-		<hr />
-
-		<footer>
-			<p>Diogo Eichert - <span id="year"></span></p>
-		</footer>
-
 		<script>
 			const yearElement = document.getElementById("year");
 			const currentYear = new Date().getFullYear();
