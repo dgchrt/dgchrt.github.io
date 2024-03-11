@@ -227,11 +227,6 @@ section.tertiary h3 {
 	padding: 30px;
 }
 
-/* Remover quando não quiser mais o maps */
-.card-header.grid {
-	grid-gap: 0;
-}
-
 .card-footer {
 	padding: 0 30px 30px;
 	margin-top: auto;
@@ -246,12 +241,6 @@ section.tertiary h3 {
 .container {
 	max-width: 1300px;
 	margin: 0 auto;
-}
-
-/* remover quanto tirar o maps */
-.embed {
-	width: 100%;
-	aspect-ratio: 1 / 1;
 }
 
 .game-card {
@@ -279,12 +268,6 @@ section.tertiary h3 {
 	gap: 25px;
 }
 
-/* Como estava antes
-.img-responsive {
-  height: 185px;
-  width: 100%;
-} */
-
 .img-responsive {
 	width: 100%;
 }
@@ -303,10 +286,17 @@ section.tertiary h3 {
 @media (max-width: 900px) {
 	footer h3 {
 		text-align: center;
+		font-size: 28px;
+		padding: 0;
+	}
+
+	footer {
+		padding: 80px 30px 50px 30px;
 	}
 
 	footer li {
 		text-align: center;
+		margin: 0 10px 0 10px;
 	}
 
 	footer p {
@@ -337,7 +327,7 @@ section.tertiary h3 {
 
 	main h2 {
 		color: #272044;
-		font-size: 14px;
+		font-size: 12px;
 		opacity: 0.7;
 		text-align: center;
 	}
@@ -349,32 +339,13 @@ section.tertiary h3 {
 		margin: 15px;
 	}
 
-	main h4 {
-		text-align: center;
-	}
-
-	main h5 {
-		text-align: center;
-	}
-
 	main p {
 		color: #272044;
 		font-size: 14px;
-		text-align: center;
 	}
 
 	section {
 		padding: 30px;
-	}
-
-	/* remover quanto tirar o maps */
-	.card-header img {
-		display: none;
-	}
-
-	/* remover quanto tirar o maps */
-	.embed {
-		aspect-ratio: 16 / 9;
 	}
 
 	.favorite-book {
@@ -387,6 +358,12 @@ section.tertiary h3 {
 
 	.grid {
 		grid-template-columns: 1fr;
+		grid-gap: 12px;
+	}
+
+	.profile-picture {
+		padding-top: 20px;
+		max-width: 200px;
 	}
 
 	.open-book {
@@ -395,5 +372,13 @@ section.tertiary h3 {
 		display: block;
 		margin: 0 auto;
 		text-align: center;
+	}
+
+	footer li a i {
+		font-size: 20px;
+	}
+
+	.project-owner p {
+		font-size: 10px;
 	}
 }
