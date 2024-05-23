@@ -1,3 +1,3 @@
-# diogoeichert.github.io
+# dgchrt.github.io
 
-Click [here](https://diogoeichert.github.io) to view it.
+Click [here](https://dgchrt.github.io) to view it.
